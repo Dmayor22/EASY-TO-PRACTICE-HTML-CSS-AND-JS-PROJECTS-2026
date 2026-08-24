@@ -23,3 +23,13 @@ body {
   height: 80px;
   color: #fff;
 }
+
+.numerical {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#equal {
+  grid-column: span(2);
+  background: red;
+}
