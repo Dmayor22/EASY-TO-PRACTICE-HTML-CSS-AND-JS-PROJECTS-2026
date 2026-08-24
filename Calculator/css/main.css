@@ -27,9 +27,25 @@ body {
 .numerical {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
 }
 
 #equal {
-  grid-column: span(2);
-  background: red;
+  grid-column: span 2;
+}
+
+.numbers_btn {
+  padding: 8px;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #fff;
+  background: transparent;
+  cursor: pointer;
+  font-weight: 700;
+  border-radius: 4px;
+  outline: none;
+}
+
+.green_btn {
+    color: green;
 }
