@@ -5,14 +5,14 @@
 }
 
 body {
-  background: lightblue;
+  background: #e3f9ff;
 }
 
 .container {
   margin: 100px auto;
   height: 100%;
   width: 70%;
-  background: grey;
+  background: #473a52;
   padding: 10px;
   border-radius: 8px;
 }
