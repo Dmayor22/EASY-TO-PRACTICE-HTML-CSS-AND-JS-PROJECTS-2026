@@ -9,60 +9,81 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: lightgreen;
+  background: #f0fff3;
   color: #fff;
 }
 
 .coupon_container {
-  padding: 20px;
-  background: purple;
-  width: 550px;
+  padding: 48px 20px;
+  background: linear-gradient(135deg, #7158fe, #9d4de6);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 20px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  position: relative;
 }
 
-.coupon {
+.coupon_header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-radius: 6px;
 }
 
-.coupon > img {
+.coupon_header > img {
   width: 65px;
+  border-radius: 8px;
 }
 
-.coupon > p {
-  font-size: 1.5rem;
+.coupon_header > p {
+  font-size: 1.3rem;
   text-align: center;
   width: 80%;
+  font-weight: 500;
   margin-top: 15px;
 }
 
-.coupon_gen > input {
-  padding: 8px;
-  outline: 0;
+.coupon_gen {
+  width: fit-content;
+}
+
+#coupon_code {
   border: 1px solid #fff;
-  color: #fff;
-  background: transparent;
-  text-align: center;
+  padding: 8px 16px;
+  border-right: 0;
 }
 
-.coupon_gen > input::placeholder {
-  color: #fff;
-  font-size: 12px;
-  opacity: 0.6;
-}
-
-.coupon_gen > button {
-  padding: 8px;
-  outline: 0;
+#coupon_copycode {
+  background: #fff;
+  padding: 8px 16px;
+  color: #7158fe;
+  border: 1px solid #fff;
+  cursor: pointer;
 }
 
 .validation_date {
+  margin-top: 15px;
   text-transform: capitalize;
+}
+
+.circle1,
+.circle2 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: #f0fff3;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.circle1 {
+  left: -25px;
+}
+
+.circle2 {
+  right: -25px;
 }

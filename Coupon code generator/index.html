@@ -8,17 +8,20 @@
   </head>
   <body>
     <div class="coupon_container">
-      <div class="coupon">
+      <div class="coupon_header">
         <img src="./images/uber.png" alt="" />
         <p>20% flat off on all rides within the city using HDFC Credit Card</p>
       </div>
 
       <div class="coupon_gen">
-        <input type="text" name="coupon" id="coupon" placeholder="COUPON CODE"/>
-        <button type="button">COPY CODE</button>
+        <span id="coupon_code">COUPONCODE</span><span id="coupon_copycode">COPY CODE</span>
       </div>
 
       <p class="validation_date">Valid till <span id="date">date</span></p>
+
+
+      <div class="circle1"></div>
+      <div class="circle2"></div>
     </div>
 
     <script src="./js/main.js"></script>
