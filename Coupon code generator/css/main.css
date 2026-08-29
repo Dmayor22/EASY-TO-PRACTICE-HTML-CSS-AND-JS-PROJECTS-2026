@@ -1,7 +1,68 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: lightgreen;
+  color: #fff;
+}
 
+.coupon_container {
+  padding: 20px;
+  background: purple;
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.coupon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.coupon > img {
+  width: 65px;
+}
+
+.coupon > p {
+  font-size: 1.5rem;
+  text-align: center;
+  width: 80%;
+  margin-top: 15px;
+}
+
+.coupon_gen > input {
+  padding: 8px;
+  outline: 0;
+  border: 1px solid #fff;
+  color: #fff;
+  background: transparent;
+  text-align: center;
+}
+
+.coupon_gen > input::placeholder {
+  color: #fff;
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.coupon_gen > button {
+  padding: 8px;
+  outline: 0;
+}
+
+.validation_date {
+  text-transform: capitalize;
+}

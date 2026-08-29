@@ -4,9 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" />
-    <title>Coupon</title>
+    <title>Coupon Code</title>
   </head>
   <body>
+    <div class="coupon_container">
+      <div class="coupon">
+        <img src="./images/uber.png" alt="" />
+        <p>20% flat off on all rides within the city using HDFC Credit Card</p>
+      </div>
+
+      <div class="coupon_gen">
+        <input type="text" name="coupon" id="coupon" placeholder="COUPON CODE"/>
+        <button type="button">COPY CODE</button>
+      </div>
+
+      <p class="validation_date">Valid till <span id="date">date</span></p>
+    </div>
+
     <script src="./js/main.js"></script>
   </body>
 </html>
