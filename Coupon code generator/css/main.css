@@ -47,18 +47,19 @@ body {
 }
 
 .coupon_gen {
+    margin-top: 15px;
   width: fit-content;
 }
 
 #coupon_code {
   border: 1px solid #fff;
-  padding: 8px 16px;
+  padding: 10px 16px;
   border-right: 0;
 }
 
 #coupon_copycode {
   background: #fff;
-  padding: 8px 16px;
+  padding: 10px 16px;
   color: #7158fe;
   border: 1px solid #fff;
   cursor: pointer;
