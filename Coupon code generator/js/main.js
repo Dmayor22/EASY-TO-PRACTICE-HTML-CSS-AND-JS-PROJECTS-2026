@@ -10,5 +10,5 @@ copyBtn.addEventListener("click", () => {
 
   setTimeout(() => {
     copyBtn.innerHTML = "COPY CODE";
-  }, 3000);
+  }, 1000);
 });
